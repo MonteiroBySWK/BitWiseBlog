@@ -1,0 +1,20 @@
+#mount {
+  background: linear-gradient(43deg, #ff0000, #0098ff);
+  background-size: 400% 400%;
+
+  animation: backgroundAnimate 11s ease infinite;
+}
+
+@keyframes backgroundAnimate {
+  0% {
+    background-position: 86% 0%
+  }
+
+  50% {
+    background-position: 15% 100%
+  }
+
+  100% {
+    background-position: 86% 0%
+  }
+}
